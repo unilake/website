@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="nav">
-      <span class="toggle" v-on:click= "changeLocale"> EN / 中文 </v-on:click=></span>
+      <span class="toggle" v-on:click= "changeLocale">EN / 中文</span>
     </div>
     <h1 class="slg">{{ $t('message.slogen') }}</h1>
     <h2 class="document">{{ $t('message.linklabel') }}</h2>
@@ -18,8 +18,8 @@ export default {
     }
   },
   methods: {
-    changeLocale: function() {
-      if(this.$i18n.locale == 'en'){
+    changeLocale: function () {
+      if (this.$i18n.locale === 'en') {
         this.$i18n.locale = 'cn'
       } else {
         this.$i18n.locale = 'en'
