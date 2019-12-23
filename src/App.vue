@@ -4,7 +4,6 @@
       <span class="toggle" v-on:click= "changeLocale">EN / 中文</span>
     </div>
     <h1 class="slg">{{ $t('message.slogen') }}</h1>
-    <h2 class="document">{{ $t('message.linklabel') }}</h2>
   </div>
 </template>
 
